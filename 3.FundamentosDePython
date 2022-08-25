@@ -1,0 +1,20 @@
+25/08/2022
+
+Características de Python
+
+*Lenguaje de alto nivel
+*Lenguaje Interpretado
+*Paradigma funcional y orientado a objetos
+*Tipado dínamico
+
+
+TIPOS DE DATOS
+
+*Booleanos: True(Cualquier entero es interpretado como un verdadero), False(EL 0 se reconoce como falso)
+*Enteros: -10, 0, 5
+*Flotantes: 12.5, 15.42423, 10.0
+*Strings: "", '', "123", """", "Carros", "Divisas"
+*Listas: [] (Lista vacía), [1,2,3], ["a", "b","c"], [1, "a", 2, "b", 3, "c"] => las listas son mutables
+*Tuplas:()(Tupla vacía), (1, 2, 3), ("a", "b","c"), (1, "a", 2, "b", 3, "c") => Las tuplas son inmutables
+*Diccionarios: {clave:valor, clave2:valor2, clave3:valor3} => Es necesaria una clave
+*Conjuntos: {1,2,3,4}, {"a", "b","c"} => No es necesaria una clave
