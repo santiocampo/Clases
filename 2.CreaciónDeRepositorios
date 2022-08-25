@@ -12,3 +12,6 @@ Pasos para crear nuevo repositorio =>
 4. Ir al working directory (Inicializar repositorio)
    dando click al botón <initialize repository>
 5. LLevarlo al stage area: se selecciona el símbolo +
+   que se encuentra con el nombre del archivo
+6. LLevarlo al commit area: 
+   para ello se selecciona el botón <commit>
