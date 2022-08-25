@@ -7,7 +7,10 @@ locales y en la nube.
 Pasos para crear nuevo repositorio =>
 
 1. Tener Git y cuenta GitHub
-2. Configurar ususario y correo en VScode
+2. Configurar ususario y correo en VScode:
+   -Abrimos el terminal y escribimos lo siguiente
+   -git config --global user.name "pepito"
+   -git config --global user.email "pepito@unal.edu.co"
 3. Ir al icono (3 nodos)
 4. Ir al working directory (Inicializar repositorio)
    dando click al botón <initialize repository>
@@ -15,3 +18,5 @@ Pasos para crear nuevo repositorio =>
    que se encuentra con el nombre del archivo
 6. LLevarlo al commit area: 
    para ello se selecciona el botón <commit>
+7. Llevarlo a la nube
+   Para ello selecciono en forma de nube
