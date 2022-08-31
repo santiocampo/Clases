@@ -1,0 +1,10 @@
+30/08/2022
+
+OPERADORES
+
+- Operador de asignación: =, permite asignar un valor a una variable.
+- Operadores arítmeticos: +, -, *, /, //, %, **, permiten realizar operaicones arítmeticas entre variables númericas
+- Operadores lógicos: and, or, not, permiten realizar operaciones lógicas o asignar valores lógicos.
+- Operadores de comparación: >, >=, <, <=, !=, permiten comparar variables de cualquier tipo.
+- Operadores de pertenencia: in, not in, permiten indicar pertenencia o no pertenencia en un conjunto.
+- Operadores de conjuntos: | (unión), & (intersección), - (diferencia), permiten operaciones entre conjuntos.
