@@ -1,0 +1,16 @@
+06/09/2022
+
+------- Ciclo While -------
+
+-Bucle que permite la repetición de sentencias hasta que se cumpla un conjunto de condiciones determinadas.
+-Tiene similitud con el condicional if, sin embargo para el ciclo while la condición del ciclo puede cambiar.
+-Si la condición es verdadera, se ejecutan todas las sentencias que contenga el ciclo while.
+-Si la condición es falsa, no se ejecuta el ciclo
+-La notación en Python es: 
+
+While <condición>:
+    <sentencia>
+    <sentencia>
+    <sentencia>
+else:
+    <sentencia>
