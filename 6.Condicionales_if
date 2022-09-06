@@ -1,0 +1,27 @@
+06/09/2022
+
+Hoy se tocarán los temas de condicionales y condicionales
+
+---------Condicional if-------------------
+
+-Cumple la operación lógica si => entonces
+Si la condición es verdadera, las sentencias se ejecutan.
+En caso contrario (condición falsa), las sentencias se ignoran
+
+La notacipon utilizada en Python es: 
+Única condición: 
+if <condición>: 
+    <sentencias>
+    <sentencias>
+    <sentencias>
+    <sentencias>
+    ...
+
+Varias condiciones: 
+if <condición>:
+    <sentencia>
+elif <condición 2>:
+    <sentencia 2>
+    ....
+else:
+    <sentencia>
