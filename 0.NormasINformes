@@ -1,0 +1,27 @@
+Crear un repositorio gitHub ¡¡PRIVADO!! llamado INFORMES,
+Dentro de este repositorio, colocaremos las carpetas con los respectivos informes
+Para el primer informe creamos una carpeta llamada INFORME1.
+
+------------------------------------------------------------------------
+INFORME1 => Debe contener dos archivos (relatoria1.pdf y ejercicios1.py)
+            La relatoria va hasta el tema 6 (condicional if)
+            Los ejercicios a resolver se publicarán el jueves (15 sept) a las 6:00 pm
+            Debe subir los archivos el sabado (17 sept) antes de las 6:00 pm
+
+
+Especificaciones de los archivos: relatoria1.pdf y ejercicios1.py  ====>
+
+        - Relatoria => - En un archivo pdf
+                       - Individual
+                       - Se sube al repositorio
+                        
+                       Anotaciones con los temas vistos en clase
+                       ¿qué espero con los temas de esta relatoria? (Objetivos)
+                       con fechas, explicaciones de los temas, comentarios, dudas
+                       ¿qué ejercicios puedo resolver con estos temas?, ....
+                       Material de apoyo, cursos extras ...
+                       Lo que considere necesario ...
+
+        - Ejercicios =>  Se publicarán el 15 de Septiembre,
+                        -La extención de su archivo es .py
+                        -También se sube al repositorio
