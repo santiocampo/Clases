@@ -1,0 +1,29 @@
+08/09/2022
+
+---------- Ciclo For -------------
+
+EN este caso si sabemos que se va a recorrer. Y no es
+necesario evaluar uan condición para detener un ciclo.
+
+En Python, el ciclo for se utiliza de una manera muy diferente a
+otros lenguajes, lo que se hace es recorrer un iterable.
+
+--------- Notación --------
+
+for <variable> in <iterable>:
+    <secuencia1>
+    <secuencia2>
+    <secuencia3>
+    <secuencia4>
+    .........
+
+<Variable>, puede ser nombrada a deseo del programador
+<Iterable>, Cualquier cosa que pueda ser recorrida, listas, tuplas, rango...
+
+Ejemplo:
+
+cadena= "Hola mundo Cruel"
+lista= [1,2,30,100,50,-20]
+tupla= (1,2,3,1,2,3,1,2,3)
+
+rango = range(1,100)
