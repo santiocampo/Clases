@@ -1,0 +1,21 @@
+13-10-2022
+
+------------ Módulos ------------
+
+Es la manera en la cual es posible mejorar la modularidad
+de un programa. Permite organizar mis funciones en diferentes
+temáticas, con el objeto de facilitar la escritura de código.
+
+¿Cómo creo un módulo?
+
+Un módulo en Python, simplemente es un archivo .py. 
+El nombre del módulo es el nombre del archivo.
+
+Un módulo puede tener lo siguiente:
+
+* Variables
+* Funciones
+* Clases
+* Documentación
+
+Sin embargo, un módulo no debe tener ejecuciones de código 
