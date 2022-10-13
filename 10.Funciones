@@ -1,0 +1,19 @@
+11-10-2022
+
+---------------- Funciones -------------
+
+Son el elemento básico del paradigma de programación funcional o modular. 
+Sirven para eviar la repetición del código, agrupándolo en secciones, 
+que luego podrán ser llamadas.
+
+--------------- NOTACIÓN --------------
+
+def <nombrefuncion>(parámetros...):
+    <sentencias>
+    <condicionales>
+    <ciclos>
+    return <variable de salida>
+
+¿Cómo llamar a la función en Python?
+
+VariableRecibida= <nombreFunción> (parámetros)
