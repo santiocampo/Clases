@@ -1,0 +1,6 @@
+18-10-2022
+
+Programar el juego triki (3 en raya) usando 3 módulos:
+1. interfaz.py ===> Parte visual, Mensajes: Turnos, ganador...
+2. lógica.py ===> ¿Cómo determinar quién gana?, ¿Cómo guardar X y O?
+3. control.py ===> Cerebro del juego, consume interfaz y lógica, y ordena la secuencia del juego
