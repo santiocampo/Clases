@@ -11,7 +11,7 @@ for turno in ["X", "O", "X", "O", "X", "O", "X", "O", "X"]:
             posicion = int(input("Ingrese posicion de juego: "))
         except ValueError:
             continue
-        if (tableroJuego[posicion] == "X" or tableroJuego[posicion] == "O"):
+        if (tableroJuego[posicion] == "X") or (tableroJuego[posicion] == "O") or (posicion >= 9):
             print("Ingrese otra posicion")
         else:
             break
