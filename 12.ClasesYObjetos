@@ -1,0 +1,146 @@
+01/11/2022
+
+
+                    Programación Orientada a Objetos
+                        Palabras Clave
+
+- Objeto, datos, métodos, atributos, funcionalidad, instancia, clase, polimorfismo, bastracción.
+
+                                DEFINICIONES
+
+
+- Clase: Es una plantilla o modelo.
+- Objetos: Son instancias, generalmente son creados a partir de las clases.
+           Poseen atributos(datos utilizados) y métodos (Operaciones realizadas con los atributos, !Funcionalidad¡)
+- Abstracción: Permite el modelamiento (solución) de un problema mediante este paradigma de programación.
+
+======================================================================================================================
+
+--------------------------------------- CLASES Y OBJETOS ---------------------------------------------------
+
+Los objetos, clases y métodos sob parte de un paradigma de programación llamado 
+programación orientada a objetos (POO). Qué es diferente al anterior visto: Programación funcional. 
+
+-- La POO, consiste en modelar (abstraer) cualquier problema en: clases, objetos (instancias) y métodos (funciones).
+
+- La POO permite relacionar entidades distintas, como las mencionadas anteriormente.
+
+----------------------------- DEFINICIONES INDISPENSABLES PARA ENTENDER POO -----------------------------------
+
+Clase: Es un modelo o plantilla generica a partir del cual se crean objetos. Una clase dota a un objeto con
+       con dos ingredientes: Atributos y Métodos.
+
+Objeto o Instancia: Es una entidad creada a partir de una clase dotada con atributos y métodos.
+
+Atributos o Propiedades: Son aquellos datos que caracterizan a un objeto. Se obtienen a partir de una clase
+                         generica. Sin embargo, cada objeto se puede diferenciar de otro, al atribuirle
+                         atributos distintos.
+
+Métodos: Son aquellas funcionalidades de los objetos, se heredan a partir de una clase generica.
+
+Instanciar: Actividad esencial de la POO, consiste en la creación de objetos (instancias) a partir de
+            una clase.
+
+
+--------------------------------- EJEMPLOS --------------------------------------------
+
+1) Determinar las clases, objetos, atributos y métodos de los siguientes tipos de datos de Python:
+
+- Números enteros:
+----------------------------------------------------------------------------------------------------------------
+Clase:      int(entero)
+Objetos:            2                          19                        100
+Atributos:     Posee un dígito           Posee dos dígitos          Posee tres dígitos
+               Es primo                  Es primo                   No es primo
+               Es par                    Es impar                   Es par
+Métodos:       +,-,*,/                   +,-,*,/                    +,-,*,/
+--------------------------------------------------------------------------------------------------------------
+
+- Cadenas de texto:
+
+--------------------------------------------------------------------------------------------------------------
+Clases: str(string)
+Objetos:    "hola mundo"            "Unal"              "Reprobado2"
+Atributos:  Tamaño 10               Tamaño 4            Tamaño 10
+            Es alfabetico           Es alfabetico       Es alfa-númerico
+            Posee minúsculas        Posee may y min     Posee may y min
+Métodos:    +,*,len()               +,*,len()           +,*,len()
+
+--------------------------------------------------------------------------------------------------------------
+
+- Secuencias de números:
+--------------------------------------------------------------------------------------------------------------
+Clases:             list (lista)
+
+Objetos:            [1.0, 3.0, 4.0]                 []                  [0, 0]
+Atributos:          Tamaño 3                Tamaño 0                Tamaño 2
+                    Mayor es el 4.0         No posee mayor          Mayor es el 0
+                    Posee flotantes         No posee elementos      Posee enteros
+Métodos:            append, len, min        append, len, min        append, len, min
+
+
+2) Determinar las clases, objetos, atributos y métodos de los siguientes elementos de la vida real
+- Bandeja Paisa, Sancocho de Gallina, Ajiaco:
+--------------------------------------------------------------------------------------------------------------
+Clase: Comida Colombiana
+
+Objetos:              Bandeja Paisa                             Sancocho de Gallina                                   Ajiaco
+Atributos:            Variedad de Carnes                        Pollo                                                 Pollo
+                      Arroz                                     Papa, Yuca, Platano                                   Variedad de Papa
+                      Bandeja                                   Tasa Grande                                           Tasa Grande
+Métodos:              Alimentar, antojar, provocar              Alimentar, antojar, provocar                          Alimentar, antojar, provocar
+--------------------------------------------------------------------------------------------------------------
+
+- BMW-I8, FERRARI-458, Autolegal:
+--------------------------------------------------------------------------------------------------------------
+Clase: Automoviles 
+
+Objetos:             BMW-I8                                           FERRARI-458                               Autolegal
+Atributos:           Auto Deportivo                                   Auto Superdeportivo                       Bus
+                     Alemán                                           Italiano                                  Colombiano
+                     Híbrido                                          V8                                        Motor Diesel
+Métodos:             Transportar, divertir, competir                  Transportar, divertir, competir           Transportar, generar dinero, ayudar
+--------------------------------------------------------------------------------------------------------------
+
+- Profesora Elisabeth Restrepo, profesor Luis Fernando Mulcue, profesor Cristian Elias Pachón:
+--------------------------------------------------------------------------------------------------------------
+Clase: Docentes Unal
+
+Objetos:             Elisabeth Restrepo                               Luis Fernando Mulcue                             Cristian Elias Pachón
+Atributos:           Docente Investigación                            Docente                                          Docente Investigación
+                     Docente Trabajo de Grado                         Docente Materias                                 Docente Materias
+                     Docente Matematicas                              Docente Física                                   Docente Programación
+Métodos:             Acompañamiento, Enseñanza, Investigación         Enseñanza, Administración, Coaching              Enseñanza, Investigación, Acompañamiento
+--------------------------------------------------------------------------------------------------------------
+
+
+----------------------Cómo crear mis propias clases en python -----------------------
+
+
+Las clases en python, se definen utilizando las palabras reservadas:
+
+class                               ==>  Avisa a python que se creará una clase genérica (comida, autos, profesores.....)
+def __init__(self, <ValorAtributo>) ==>  Mecanismo mediante el cual creamos atributos genéricos, se usa solo una vez
+def <metodo>(self, <valorEntrada>)  ==>  Mecanismo mediante el cual creamos métodos, se usa las veces que quiera, dependiendo de la cantidad de funcionalidades de esa clase
+self                                ==>  Permite hacer referencia al objeto creado
+
+
+------------------notacion------------------
+class <NombreDeLaClase>:
+   def __init__(self, <ValorAtributo>):
+      self.<NombreAtributo> = <ValorAtributo>
+   
+   def <metodo1>(self, <ValorEntrada>):
+      <sentencias>
+      return <valorDeRetorno>
+   
+   def <metodo2>(self, <ValorEntrada>):
+      <sentencias2>
+      return <valorDeRetorno2>
+
+   ..............
+   
+   def <metodoN>(self, <ValorEntrada>):
+      <sentenciasN>
+      return <valorDeRetornoN>
+--------------------------------------------
