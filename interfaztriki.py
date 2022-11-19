@@ -24,9 +24,6 @@ def explicarJuego():
     print(explicacion)
     input("Ingrese enter para empezar el juego... ")
 
-tableroLista = ["x", "o", None, None, None, None, None, None, None]
-
-
 def dibujarTablero(tableroLogico:list):
     tableroVisual= """
 
